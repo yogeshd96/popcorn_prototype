@@ -5,7 +5,7 @@ let count = 1;
 
 async function getData() {
   return new Promise((resolve, reject) => {
-    const list = [];
+    const list = new Array();
 
     let endpoints = [];
 
